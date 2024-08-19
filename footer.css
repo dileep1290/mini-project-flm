@@ -1,0 +1,38 @@
+.footer{
+    height: 400px;
+    
+    background-color: rgba(221, 243, 243, 0.406);
+}
+.foot-section{
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.icons {
+    padding: 5px;
+    /* background-color: teal; */
+}
+
+#fl{
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#sl{
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#fl, #sl{
+    padding: 5px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
