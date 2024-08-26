@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card-test</title>
+    <style>
+        .section{
+            width: 250px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition: transform 0.6s ease; 
+        }
+        .section:hover{
+            transform: scale(1.03);
+        }
+        .bottom-section h4{
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .light-color{
+            font-size: 24px;
+            font-weight: 500;
+            color: rgba(148, 142, 142, 0.744);
+        }
+        .head-section img{
+            width: 100%;
+            
+        }
+        .bottom-section p:nth-of-type(2){
+            color: blue;
+            font-size: 17px;
+        }
+        .head-section{
+            box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="section">
+        <div class="head-section">
+            <img src="https://d502jbuhuh9wk.cloudfront.net/courses/66b1d98f7b15343b6924c0ac/66b1d98f7b15343b6924c0ac_scaled_cover.jpg?v=1" alt="Image">
+        </div>
+        <div class="bottom-section">
+            <h4>ServieceNow Onlinle Training ServieceNow Onlinle Training</h4>
+            <p class="light-color">FLM</p>
+            <p><strike>&#8377;7,099</strike>&nbsp; &#8377;5,999</p>
+        </div>
+    </div>
+</body>
+</html>

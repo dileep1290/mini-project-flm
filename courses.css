@@ -1,0 +1,50 @@
+
+
+.nav-section{
+    position:  sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.body-section{
+    margin-top: 20px;
+  }
+.body-section{
+    margin-top: 20px;
+}
+#list-items li a{
+    padding: 9px;
+}
+#list-items li a:hover{
+    background-color: rgba(19, 180, 234, 0.872);
+    border: 1px solid teal;
+    border-radius: 3px;
+
+}
+/* card Styles */
+.card-section{
+    margin-bottom: 10%;
+}
+
+
+.money{
+    text-decoration: none;
+    color:  blue;
+    font-size: 18px;
+}
+.card-text{
+    color: rgb(141, 127, 127);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (max-width:270px){
+    .body-section{
+        padding: 20px;
+    }
+}
