@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(241, 238, 238, 0.671);
+}
+.nav-section{
+    position: sticky;
+    top: 0px;
+}
+.section-body{
+    width: 60%;
+    margin: 7% auto;
+    background-color: white;
+    padding: 1%;
+}
+
+.card-section{
+    width: 50%;
+    margin: 3% auto;
+}
+
+.head-part img{
+    width: 100%;
+}
+.body-part{
+    text-align: center;
+    margin-top: 5%;
+}
+.body-part button{
+    padding: 10px;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 21px;
+}
+/* .head-part,
+.body-part{
+    border: 1px solid black;
+} */
+
+
+@media screen and (max-width:400px){
+    .section-body{
+        width: 80%;
+    }
+    .card-section{
+        width: 70%;
+    }
+    .body-part button{
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:250px){
+    .section-body{
+        width: 90%;
+    }
+    .card-section{
+        width: 80%;
+    }
+    .body-part button{
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:600px){
+    .body-part button{
+        padding: 5px;
+        font-size: 15px;
+    }
+}

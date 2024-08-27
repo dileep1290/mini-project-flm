@@ -1,0 +1,97 @@
+.nav-section{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.body-section{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 2%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.right-part{
+    position: relative;
+}
+
+
+.right-part h1{
+    text-align: center;
+    color: rgba(64, 64, 204, 0.904);
+}
+
+.left-part p:nth-of-type(1){
+    color: red;
+    font-size: 15px;
+}
+.line-follow-text {
+    display: flex;
+    align-items: center;
+}
+
+.line-follow-text::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: red;
+    margin-left: 5px; /* Space between text and line */
+    
+}
+.left-part p:nth-of-type(2),
+.left-part p:nth-of-type(3),
+.left-part p:nth-of-type(4){
+    padding: 5px;
+}
+.left-part p:nth-of-type(2):hover,
+.left-part p:nth-of-type(3):hover,
+.left-part p:nth-of-type(4):hover{
+    background-color: rgba(30, 30, 151, 0.826);
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+}
+#icon-tag{
+    font-size: 20px;
+    color: rgb(180, 167, 167);
+}
+#clock-img{
+    margin-top: 2px;
+}
+#clock-img,
+#admin-img{
+    font-size: 25px;
+}
+
+
+
+#p2{
+    height: 20%;
+    /* border: 1px solid black; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
+
+}
+#button-id{
+    color: gold;
+    background-color: black;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    margin-right: 4px;
+}
+.right-part,
+.left-part{
+    padding: 10px;
+}
+
+@media screen and (max-width:600px){
+    .body-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+

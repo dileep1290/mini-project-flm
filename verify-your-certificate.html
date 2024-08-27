@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Certificate</title>
+    <style>
+        body{
+            background-color: #ffe8cc;
+          
+        }
+        #main-div{
+            width: 40%;
+            margin: 200px auto;
+            background-color: rgba(255, 255, 255, 0.893);
+            text-align: center;
+            align-items: center;
+            position: relative;
+            padding: 10px;
+        }
+        #main-div img{
+            height: 100px;
+            width: 100px;
+        }
+        #main-div h2{
+            color: rgb(152, 141, 141);
+            font-weight: 400;
+        }
+        #main-div p{
+            color: rgb(116, 109, 109);
+            font-size: 17px;
+        }
+        #main-div button{
+            margin-left: 45%;
+            margin-top: 20%;
+            padding: 10px;
+            width: 45%;
+            background-color: rgba(22, 22, 212, 0.797);
+            color: white;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+        #main-div input[type="text"]{
+            padding: 9px;
+            width: 90%;
+            color: black;
+        }
+        @media screen and (max-width:550px){
+            #main-div{
+                width: 70%;
+                
+            }
+            #main-div button{
+                margin: auto;
+                font-size: 15px;
+                width: auto;
+
+            }
+            #main-div img{
+                width: 50px;
+                height: 50px;
+            }
+            #main-div input[type="text"]{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main-div">
+        <img src="https://www.frontlinesedutech.com/logo.png?v=3" alt="Image Loading..">
+        <h2>Verify a Certificate</h2>
+        <input type="text" placeholder="Enter Serial Number">
+        <p>The serial number can be found at the bottom of each certificate.</p>
+        <button>Validate</button>
+    </div>
+</body>
+</html>
