@@ -1,0 +1,138 @@
+.main-div{
+    width: 30%;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+}
+
+#image{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+#form{
+    width: 90%;
+    margin-left: 5%;
+}
+#form input{
+    border: 1px solid black;
+}
+#forgot{
+    text-align: end;
+    color: #5e5daa;
+
+}
+#forgot:hover{
+    color: red;
+    cursor: pointer;
+}
+#d-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+ button{
+    border: none;
+    color: #5e5daa;
+    background-color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+#right-part-input{
+    background-color: black;
+    color: gold;
+    font-size: 19px;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    margin-top: 5%;
+}
+.dots{
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.747);
+    height: 0;
+    margin-top: 4px;
+}
+.or-divider{
+    padding: 4%;
+    color: rgba(255, 0, 0, 0.591);
+    font-weight: bold;
+}
+.googlr-logo{
+    padding: 4%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    box-shadow: -20px 0 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset;
+    margin-bottom: 5%;
+    
+    width: 90%;
+    margin: auto;
+}
+.googlr-logo > span{
+    padding: 5px;
+}
+.googlr-logo span:nth-of-type(1){
+    color: red;
+    font-size: 22px;
+}
+.googlr-logo span:nth-of-type(2){
+    color: #8b8b8b;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+@media screen and (max-width:1000px){
+    .main-div{
+        width: 35%;
+    }
+}
+@media screen and (max-width:860px) {
+    .main-div{
+        width: 40%;
+    }
+}
+@media screen and (max-width:500px){
+    .googlr-logo{
+        padding: 1%;
+        width: 95%;
+    }
+}
+@media screen and (max-width:600px){
+    .main-div{
+        width: 60%;
+    }
+    #image{
+        width: 100px;
+        height: 105px;
+    }
+}
+@media screen and (max-width:450px){
+    .main-div{
+        width: 85%;
+    }
+}
+@media screen and (max-width:325px){
+    .googlr-logo  > span{
+        padding: 1%;
+    }
+    .googlr-logo span:nth-of-type(1){
+        font-size: 18px;
+    }
+    .googlr-logo span:nth-of-type(2){
+        font-size: 16px;
+    }
+}
