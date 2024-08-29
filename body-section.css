@@ -150,3 +150,13 @@
             padding: 10%;
         }
     }
+
+
+
+#log-in{
+    text-align: center;
+    background-color: #5755da;
+    color: #f7c561;
+    font-size: 18px;
+    width: 200px;
+}
